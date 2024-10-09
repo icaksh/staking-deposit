@@ -41,7 +41,7 @@ HoleskySetting = BaseChainSetting(
 # Glide setting
 GlideSetting = BaseChainSetting(
     NETWORK_NAME=GLIDE, GENESIS_FORK_VERSION=bytes.fromhex('10000252'),
-    GENESIS_VALIDATORS_ROOT=bytes.fromhex('7e2c7bba45719b5b6354eb4bc9485189fadd8a750d75aa071e35adefc1ae7ee1'))
+    GENESIS_VALIDATORS_ROOT=bytes.fromhex('f5d31f4ccd18480522461bde9938d12c2cae661abf9b4693e3a723843b53cb08'))
 
 
 ALL_CHAINS: Dict[str, BaseChainSetting] = {
